@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Miletos Privacy Policy — an offline-first field research app with no analytics, ads, or third-party tracking. Your discoveries stay on your device and your private iCloud account.">
+    <meta name="keywords" content="Miletos privacy policy, archaeology app privacy, offline app privacy">
+    <title>Miletos — Privacy Policy</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            line-height: 1.65;
+            color: #2B2B28;
+            background: #FAF7F2;
+        }
+
+        .container {
+            max-width: 760px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+
+        header {
+            background: linear-gradient(135deg, #2E85A3 0%, #18404F 100%);
+            color: white;
+            padding: 64px 20px 40px;
+            text-align: center;
+            margin-bottom: 40px;
+            border-radius: 0 0 24px 24px;
+            box-shadow: 0 4px 16px rgba(0,0,0,0.12);
+        }
+
+        header h1 {
+            font-size: 2.3em;
+            margin-bottom: 8px;
+            font-weight: 700;
+        }
+
+        header p {
+            font-size: 1.05em;
+            opacity: 0.9;
+        }
+
+        h2 {
+            color: #18404F;
+            font-size: 1.3em;
+            margin: 36px 0 12px;
+            border-bottom: 2px solid #E4DCC8;
+            padding-bottom: 8px;
+        }
+
+        h3 {
+            color: #2E85A3;
+            font-size: 1.05em;
+            margin: 20px 0 8px;
+        }
+
+        p, li { margin-bottom: 10px; }
+
+        ul { padding-left: 22px; margin-bottom: 14px; }
+
+        a { color: #2E85A3; text-decoration: none; font-weight: 600; }
+        a:hover { text-decoration: underline; }
+
+        .summary-box {
+            background: white;
+            border: 2px solid #2E85A3;
+            border-radius: 12px;
+            padding: 24px;
+            margin-bottom: 10px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 12px 0 20px;
+            font-size: 0.92em;
+        }
+
+        th, td {
+            text-align: left;
+            padding: 10px 12px;
+            border-bottom: 1px solid #E4DCC8;
+        }
+
+        th { color: #18404F; }
+
+        .contact-box {
+            background: white;
+            border: 2px solid #2E85A3;
+            padding: 28px;
+            border-radius: 12px;
+            text-align: center;
+            margin: 32px 0;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+        }
+
+        .contact-box h2 { border-bottom: none; margin-top: 0; }
+
+        .email {
+            font-size: 1.2em;
+            font-weight: 600;
+            color: #2E85A3;
+            display: inline-block;
+            margin: 12px 0;
+            padding: 10px 20px;
+            background: #EAF4F7;
+            border-radius: 8px;
+        }
+
+        footer {
+            text-align: center;
+            padding: 40px 20px 60px;
+            color: #6B675F;
+            font-size: 0.9em;
+        }
+
+        footer a { margin: 0 8px; }
+
+        .updated {
+            text-align: center;
+            color: #6B675F;
+            font-size: 0.88em;
+            margin-bottom: 30px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Miletos — Privacy Policy</h1>
+        <p>A field research app for ancient discoveries — offline-first, privacy-first</p>
+    </header>
+
+    <div class="container">
+        <p class="updated">Last updated: June 14, 2026</p>
+
+        <div class="summary-box">
+            <strong>Summary:</strong> Miletos is a field research tool for recording ancient site discoveries.
+            It is designed to work offline. All user data stays on your devices and your own private iCloud
+            account. The app does not include analytics, advertising, or third-party tracking of any kind.
+        </div>
+
+        <h2>What data the app stores</h2>
+
+        <h3>On your device</h3>
+        <ul>
+            <li><strong>Marker records</strong> — title, description, GPS coordinates, site type, period, ancient name, source URL, photos, and an optional link to a Pleiades gazetteer entry.</li>
+            <li><strong>Photos</strong> — stored as binary data attached to markers, never uploaded anywhere except your private iCloud account (see below).</li>
+            <li><strong>Discovery categories</strong> — your own custom groupings, e.g. "Roman", "Byzantine".</li>
+            <li><strong>Place guide cache</strong> — Wikipedia article extracts and thumbnails fetched on demand and cached locally for offline use.</li>
+        </ul>
+
+        <h3>In your iCloud private database</h3>
+        <p>If you're signed into iCloud, your markers and categories are automatically synced to Apple's
+        CloudKit private database. This sync:</p>
+        <ul>
+            <li>Is encrypted in transit and at rest by Apple.</li>
+            <li>Is accessible only to you — not to other users, not to the developer.</li>
+            <li>Can be disabled by signing out of iCloud or turning off iCloud Drive in Settings.</li>
+            <li>Follows <a href="https://www.apple.com/legal/privacy/en-ww/">Apple's iCloud privacy policy</a>.</li>
+        </ul>
+
+        <h2>Network requests the app makes</h2>
+        <p>Miletos only makes outbound network requests in these situations:</p>
+        <ul>
+            <li><strong>CloudKit sync</strong> — automatic, to Apple's servers, when you're signed into iCloud.</li>
+            <li><strong>Place guide refresh</strong> — when you tap "Refresh guide," the app fetches the latest Wikipedia summary and thumbnail for that place from <code>en.wikipedia.org</code>. This request includes the article title and your IP address as seen by Wikipedia's servers. See the <a href="https://foundation.wikimedia.org/wiki/Privacy_policy">Wikimedia privacy policy</a>.</li>
+            <li><strong>"Read full article" / "View on Pleiades"</strong> — opens an in-app browser view; the destination site receives your IP address and standard browser headers.</li>
+        </ul>
+        <p>Miletos never sends your GPS coordinates, photos, marker content, or any personally identifiable information to any server controlled by the developer.</p>
+
+        <h2>Location</h2>
+        <p>Miletos requests "When In Use" location permission to center the map on your position and to
+        suggest nearby ancient places when you add a marker. Your location is never recorded unless you
+        explicitly create a marker there, and it's never transmitted off your device except as part of a
+        marker synced to your own private iCloud database.</p>
+
+        <h2>Photos</h2>
+        <p>Miletos requests photo library access to attach images to markers. GPS coordinates embedded in a
+        photo's EXIF data are read entirely on-device. Photos are stored in your private iCloud database and
+        are never sent to any third-party server.</p>
+
+        <h2>Data the developer never receives</h2>
+        <ul>
+            <li>Your marker content, titles, descriptions, or coordinates</li>
+            <li>Your photos</li>
+            <li>Your location</li>
+            <li>Usage statistics, crash reports, or analytics of any kind</li>
+        </ul>
+        <p>There is no backend server for this app beyond Apple's CloudKit.</p>
+
+        <h2>Third-party data and licenses</h2>
+        <p>Place guides bundle data from open-licensed sources, credited in the app under Settings → About:</p>
+        <table>
+            <tr><th>Source</th><th>License</th><th>What is bundled</th></tr>
+            <tr><td><a href="https://pleiades.stoa.org">Pleiades</a></td><td>CC BY 3.0</td><td>Gazetteer place names and coordinates</td></tr>
+            <tr><td><a href="https://en.wikipedia.org">Wikipedia</a></td><td>CC BY-SA 4.0</td><td>Article extracts and thumbnails, fetched on demand</td></tr>
+            <tr><td><a href="https://awmc.unc.edu">Ancient World Mapping Center</a></td><td>ODbL 1.0</td><td>Road, aqueduct, urban area, and wall geodata</td></tr>
+            <tr><td><a href="https://www.openstreetmap.org/copyright">OpenStreetMap contributors</a></td><td>ODbL 1.0</td><td>Base geodata used by AWMC layers</td></tr>
+        </table>
+
+        <div class="contact-box">
+            <h2>Contact</h2>
+            <p>For privacy questions or data deletion requests:</p>
+            <a class="email" href="mailto:sencanonur@gmail.com">sencanonur@gmail.com</a>
+            <p>Because all personal data lives in your private iCloud account, deleting the app and clearing
+            its iCloud data (Settings → [your name] → iCloud → Manage Account Storage) is sufficient to
+            remove all your data.</p>
+        </div>
+    </div>
+
+    <footer>
+        <a href="/">Home</a> · <a href="/support/">Support</a>
+    </footer>
+</body>
+</html>

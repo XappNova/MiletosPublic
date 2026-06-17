@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Miletos Support — getting started, frequently asked questions, and troubleshooting for the offline-first ancient discoveries field guide.">
+    <meta name="keywords" content="Miletos support, archaeology app help, Pleiades app, ancient sites app FAQ">
+    <title>Miletos — Support &amp; FAQ</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            line-height: 1.65;
+            color: #2B2B28;
+            background: #FAF7F2;
+        }
+
+        .container {
+            max-width: 760px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+
+        header {
+            background: linear-gradient(135deg, #2E85A3 0%, #18404F 100%);
+            color: white;
+            padding: 64px 20px 40px;
+            text-align: center;
+            margin-bottom: 40px;
+            border-radius: 0 0 24px 24px;
+            box-shadow: 0 4px 16px rgba(0,0,0,0.12);
+        }
+
+        header h1 { font-size: 2.3em; margin-bottom: 8px; font-weight: 700; }
+        header p { font-size: 1.05em; opacity: 0.9; }
+
+        h2 {
+            color: #18404F;
+            font-size: 1.3em;
+            margin: 36px 0 14px;
+            border-bottom: 2px solid #E4DCC8;
+            padding-bottom: 8px;
+        }
+
+        .contact-box {
+            background: white;
+            border: 2px solid #2E85A3;
+            padding: 28px;
+            border-radius: 12px;
+            text-align: center;
+            margin: 0 0 32px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+        }
+
+        .contact-box h2 { border-bottom: none; margin-top: 0; }
+
+        .email {
+            font-size: 1.2em;
+            font-weight: 600;
+            color: #2E85A3;
+            display: inline-block;
+            margin: 12px 0;
+            padding: 10px 20px;
+            background: #EAF4F7;
+            border-radius: 8px;
+        }
+
+        .response-time { color: #6B675F; font-style: italic; font-size: 0.92em; }
+
+        .steps { padding-left: 22px; margin-bottom: 10px; }
+        .steps li { margin-bottom: 6px; }
+
+        .faq-item, .ts-item {
+            background: white;
+            border-radius: 10px;
+            padding: 18px 20px;
+            margin-bottom: 12px;
+            box-shadow: 0 1px 4px rgba(0,0,0,0.05);
+        }
+
+        .faq-item h3, .ts-item h3 {
+            color: #18404F;
+            font-size: 1.02em;
+            margin-bottom: 6px;
+        }
+
+        .ts-item h3::before { content: "⚠ "; color: #C97B3D; }
+
+        a { color: #2E85A3; text-decoration: none; font-weight: 600; }
+        a:hover { text-decoration: underline; }
+
+        footer {
+            text-align: center;
+            padding: 40px 20px 60px;
+            color: #6B675F;
+            font-size: 0.9em;
+        }
+
+        footer a { margin: 0 8px; }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Miletos Support</h1>
+        <p>Help with field notes, ancient layers, place guides, and sync</p>
+    </header>
+
+    <div class="container">
+        <div class="contact-box">
+            <h2>Get in touch</h2>
+            <p>Have a question, found a bug, or want to suggest a feature?</p>
+            <a class="email" href="mailto:sencanonur@gmail.com">sencanonur@gmail.com</a>
+            <p class="response-time">Usually a reply within 1-2 business days.</p>
+        </div>
+
+        <h2>Getting started</h2>
+        <ol class="steps">
+            <li>Open the <strong>Map</strong> tab and pan to anywhere in the Aegean or Anatolia.</li>
+            <li>Tap and hold anywhere on the map (or tap the <strong>+</strong> button) to record your first discovery — add a title, category, photo, and notes.</li>
+            <li>If your find is near a known ancient site, Miletos will suggest linking it to the <strong>Pleiades</strong> gazetteer entry for that place.</li>
+            <li>Tap the layers icon to turn on Roman roads, aqueducts, walls, or ancient coastlines and see the map as it might have looked in antiquity.</li>
+            <li>Everything works offline — sync to iCloud happens automatically in the background when you're signed in.</li>
+        </ol>
+
+        <h2>Frequently asked questions</h2>
+
+        <div class="faq-item">
+            <h3>Does Miletos work without an internet connection?</h3>
+            <p>Yes. The map, your discoveries, the ancient-world layers, and over 350 bundled place guides
+            all work fully offline. An internet connection is only needed for iCloud sync and for refreshing
+            or fetching a place guide that isn't already bundled or cached.</p>
+        </div>
+
+        <div class="faq-item">
+            <h3>How does iCloud sync work?</h3>
+            <p>If you're signed into iCloud, your discoveries sync automatically to your own private CloudKit
+            database — not a shared or public one. Sign out of iCloud at any time to keep everything local-only.</p>
+        </div>
+
+        <div class="faq-item">
+            <h3>What is Pleiades, and why does Miletos link to it?</h3>
+            <p><a href="https://pleiades.stoa.org">Pleiades</a> is a community-built gazetteer of places in the
+            ancient world, used by archaeologists and historians worldwide. Linking your discovery to a
+            Pleiades entry connects it to the established scholarly record for that place, and unlocks the
+            offline place guide for it inside Miletos.</p>
+        </div>
+
+        <div class="faq-item">
+            <h3>Why does a place guide say there's no internet connection, or show outdated info?</h3>
+            <p>Place guides load in three steps: your own cached copy, then a bundle of 350+ pre-downloaded
+            guides, then a live Wikipedia fetch if neither of those has the place you're looking at. If a
+            place isn't in the first two tiers, you'll need one successful online fetch before it's available
+            offline. Tap "Refresh guide" any time to pull the latest Wikipedia summary.</p>
+        </div>
+
+        <div class="faq-item">
+            <h3>How do I add a photo with the correct location?</h3>
+            <p>When you attach a photo that has GPS data embedded (most iPhone camera photos do, if Location
+            Services was on when it was taken), Miletos detects the coordinates automatically and offers to
+            use them for the marker — just confirm the dialog that appears.</p>
+        </div>
+
+        <div class="faq-item">
+            <h3>Is my location tracked in the background?</h3>
+            <p>No. Miletos only ever requests "When In Use" location access, used to center the map and
+            suggest nearby places while the app is open. There is no background location tracking.</p>
+        </div>
+
+        <div class="faq-item">
+            <h3>How do I delete all my data?</h3>
+            <p>Open Settings inside the app for category and storage management, or simply delete the app
+            and clear its iCloud data (on your device: Settings → [your name] → iCloud → Manage Account
+            Storage). Since everything lives in your own private iCloud account, that's enough to remove
+            it completely.</p>
+        </div>
+
+        <div class="faq-item">
+            <h3>Will there be a paid version or in-app purchases?</h3>
+            <p>Miletos is free today, with no ads or subscriptions. We're exploring optional features for a
+            future update, but everything currently in the app will stay free.</p>
+        </div>
+
+        <h2>Troubleshooting</h2>
+
+        <div class="ts-item">
+            <h3>The app can't find my location</h3>
+            <p>Check Settings → Privacy &amp; Security → Location Services → Miletos, and make sure it's set
+            to "While Using the App."</p>
+        </div>
+
+        <div class="ts-item">
+            <h3>A photo's location wasn't detected</h3>
+            <p>GPS is only embedded in a photo if Location Services was enabled in the Camera app at the
+            moment it was taken. Photos without embedded GPS need their location set manually.</p>
+        </div>
+
+        <div class="ts-item">
+            <h3>An ancient-world layer isn't showing on the map</h3>
+            <p>Some layers — especially individual archaeological sites — only appear once you zoom in past a
+            certain level, to keep the map readable. Also double-check the layer is actually toggled on in
+            the layers sheet.</p>
+        </div>
+
+        <div class="ts-item">
+            <h3>iCloud sync doesn't seem to be working</h3>
+            <p>Confirm you're signed into iCloud, that iCloud Drive is enabled for Miletos, and that you have
+            a network connection. Sync happens automatically in the background and may take a minute or two.</p>
+        </div>
+
+        <div class="ts-item">
+            <h3>A place guide won't load while offline</h3>
+            <p>Only the 350+ bundled guides and any place you've previously opened while online are available
+            offline. New places need one successful fetch with a connection first.</p>
+        </div>
+    </div>
+
+    <footer>
+        <a href="/">Home</a> · <a href="/privacy/">Privacy Policy</a>
+    </footer>
+</body>
+</html>
